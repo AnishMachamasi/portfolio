@@ -1,7 +1,13 @@
-import React from "react";
+import { useThemeContext } from "../context/theme-context";
 
-const PrimaryColor = ({className}) => {
-  return <button className={className}></button>;
+const PrimaryColor = ({ className }) => {
+  const { themeHandler } = useThemeContext();
+  return (
+    <button
+      className={className}
+      onClick={() => themeHandler(className)}
+    ></button>
+  );
 };
 
 export default PrimaryColor;

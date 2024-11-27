@@ -1,9 +1,13 @@
-import React from "react";
+import { useThemeContext } from "../context/theme-context";
 
 const BackgroundColor = ({ className }) => {
+  const { themeHandler } = useThemeContext();
   return (
     <div>
-      <button className={className}></button>
+      <button
+        className={className}
+        onClick={() => themeHandler(className)}
+      ></button>
     </div>
   );
 };
