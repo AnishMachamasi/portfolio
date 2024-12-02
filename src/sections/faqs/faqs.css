@@ -1,3 +1,7 @@
+#faqs {
+  width: 100vw;
+}
+
 .faqs__container {
   display: grid;
   grid-template-columns: 1fr 1fr;

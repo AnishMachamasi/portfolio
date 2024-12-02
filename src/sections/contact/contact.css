@@ -1,3 +1,7 @@
+#contact {
+  width: 100vw;
+}
+
 .contact__container {
   width: fit-content;
   display: flex;

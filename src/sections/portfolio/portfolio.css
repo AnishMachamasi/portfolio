@@ -1,3 +1,7 @@
+#portfolio {
+  width: 100vw;
+}
+
 .portfolio__categories {
   display: flex;
   justify-content: center;
