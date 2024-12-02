@@ -42,7 +42,11 @@ const About = () => {
             tackle the next challenge and contribute to meaningful projects.
           </p>
 
-          <a href={CV} download className="btn primary">
+          <a
+            href={CV}
+            download="Anish_Machamasi_CV.pdf"
+            className="btn primary"
+          >
             Download CV <FaDownload />
           </a>
         </div>
