@@ -15,12 +15,12 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Header Portrait" />
         </div>
-        <h3 data-aos="fade-up">Hajia Binut</h3>
+        <h3 data-aos="fade-up">Anish Machamasi</h3>
         <p data-aos="fade-up">
-          A passionate web developer with a love for creating beautiful and
-          functional websites. With a keen eye for detail and a dedication to
-          continuous learning, I craft seamless user experiences and bring ideas
-          to life through code.
+          Data Engineer with 1.5+ years of experience in optimizing data
+          pipelines. AWS Solutions Architect Associate certified, proficient in
+          Python, SQL, PySpark, and FastAPI, focused on data quality,
+          performance, and cost-efficiency.
         </p>
         <div className="header__cta" data-aos="fade-up">
           <a href="#contact" className="btn primary">

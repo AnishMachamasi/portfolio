@@ -26,22 +26,22 @@ const About = () => {
             ))}
           </div>
           <p>
-            I am a passionate web developer with a keen interest in creating
-            dynamic, user-friendly websites. With a strong foundation in
-            front-end technologies like HTML, CSS, and JavaScript, I enjoy
-            building responsive layouts and working with various libraries and
-            frameworks to make websites come to life. I thrive in collaborative
-            environments and am always eager to learn and adapt to new
-            technologies.
+            I am a dedicated Data Engineer with a passion for optimizing data
+            pipelines and improving data processes. With experience in
+            technologies like Python, SQL, PySpark, and FastAPI, I focus on
+            enhancing data quality, performance, and cost-efficiency. I am also
+            AWS Solutions Architect Associate certified, which enables me to
+            design scalable cloud-based solutions. I thrive in collaborative
+            environments and enjoy solving complex data challenges.
           </p>
           <p>
-            Outside of coding, I enjoy exploring creative design, learning new
-            programming languages, and staying up to date with the latest trends
-            in the tech world. I believe in continuous growth and challenge
-            myself to improve my skills every day. Whether it's building new
-            projects, collaborating with others, or contributing to open-source,
-            I am always ready to take on the next challenge.
+            Outside of work, I am always exploring new tools and techniques in
+            the data engineering space, staying up to date with industry trends,
+            and continuously improving my skills. Whether it’s optimizing
+            existing systems or building new solutions, I’m always excited to
+            tackle the next challenge and contribute to meaningful projects.
           </p>
+
           <a href={CV} download className="btn primary">
             Download CV <FaDownload />
           </a>
