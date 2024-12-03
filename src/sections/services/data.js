@@ -1,32 +1,33 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaServer } from "react-icons/fa6";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiAdobexd } from "react-icons/si";
+import { FaTools } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa6";
+import { GiCardboardBox } from "react-icons/gi";
+import { FaAws } from "react-icons/fa6";
+import { TbApi } from "react-icons/tb";
 
 const data = [
   {
     id: 1,
-    icon: <SiAdobexd />,
-    title: "UI/UX Design",
-    desc: "I specialize in creating modern, intuitive designs that focus on user experience. Using industry-standard principles, I ensure your users enjoy a seamless interaction with your product.",
+    icon: <FaDatabase />, // Database Icon for Data Engineering
+    title: "Data Engineering",
+    desc: "I specialize in designing and optimizing data pipelines, leveraging tools such as Apache Airflow, Apache Spark, and AWS services. I focus on ensuring data quality, performance, and cost-efficiency across complex systems, creating scalable and reliable solutions.",
   },
   {
     id: 2,
-    icon: <RiReactjsLine />,
-    title: "Frontend Development",
-    desc: "I build fast, responsive, and visually appealing websites using cutting-edge frontend technologies like React, HTML, CSS, and JavaScript to enhance user engagement.",
+    icon: <FaAws />, // AWS Icon for Cloud & Infrastructure
+    title: "Cloud & Infrastructure",
+    desc: "With certifications in AWS Cloud Practitioner and Solutions Architect Associate, I design and implement cloud-based data solutions. I am proficient in using AWS and Azure services, utilizing Infrastructure as Code with Terraform and ensuring seamless cloud deployments.",
   },
   {
     id: 3,
-    icon: <FaServer />,
-    title: "Backend Development",
-    desc: "I develop powerful server-side solutions that ensure the reliability, scalability, and security of your web applications. I work with technologies like Node.js, Express, and databases to build robust backends.",
+    icon: <FaTools />, // Tools Icon for ETL Development
+    title: "ETL Development",
+    desc: "I excel in building and maintaining robust ETL pipelines using Python, SQL, and Apache Spark. My expertise includes extracting, transforming, and loading large datasets to facilitate efficient data storage and analysis across multiple platforms.",
   },
   {
     id: 4,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    desc: "I design and develop user-friendly mobile apps for both iOS and Android platforms. Using frameworks like React Native, I deliver cross-platform applications that provide a seamless user experience.",
+    icon: <TbApi />, // API Icon for Backend Development
+    title: "Backend Development",
+    desc: "I have hands-on experience in developing APIs and backend systems with FastAPI and Django, ensuring seamless integration of data storage and processing systems. I focus on building scalable, secure, and efficient backend architectures for data-driven applications.",
   },
 ];
 

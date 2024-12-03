@@ -4,14 +4,22 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const data = [
-  { id: 1, icon: <HiOutlineMail />, link: "mailto:dummyegator@gmail.com" },
+  {
+    id: 1,
+    icon: <HiOutlineMail />,
+    link: "mailto:anishmachamasi2262@gmail.com",
+  },
   {
     id: 2,
     icon: <RiMessengerLine />,
-    link: "https://www.messenger.com/t/100087217880007",
+    link: "https://www.messenger.com/t/2106720939349261",
   },
-  { id: 3, icon: <FaWhatsapp />, link: "https://wa.me/+233557097546" },
-  { id: 4, icon: <FaLinkedin />, link: "https://wa.me/+233557097546" },
+  { id: 3, icon: <FaWhatsapp />, link: "https://wa.me/+9779860116983" },
+  {
+    id: 4,
+    icon: <FaLinkedin />,
+    link: "https://www.linkedin.com/in/anish-machamasi-224220219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 ];
 
 // alternative whatsApp link

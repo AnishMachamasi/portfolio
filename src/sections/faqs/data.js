@@ -1,39 +1,39 @@
 const data = [
   {
     id: 1,
-    question: "What do you need to start working on my project?",
+    question: "What do I need to start the project?",
     answer:
-      "It mostly depends on the type of project. But in general, you need a fair idea of what you want, then we can take it from there.",
+      "To begin, you'll need a clear understanding of your project goals and requirements. Once we have that, I'll guide you through the necessary steps and tools to get started.",
   },
   {
     id: 2,
-    question: "How long will my project take to complete?",
+    question: "How long will it take to complete the project?",
     answer:
-      "This depends on the complexity of the project, your available, and your payment. Once you have this sorted out, I will give you a completion date.",
+      "The time frame depends on the project's scope and complexity. After discussing the details, I will provide an estimated completion date.",
   },
   {
     id: 5,
-    question: "Is hosting and domain registration inclusive in your pricing?",
+    question: "Are hosting and domain registration included in the price?",
     answer:
-      "No! Hosting and domain is taken care of seperately. You can pay for it or take care of it on your own if you know how to.",
+      "No, hosting and domain registration are handled separately. You can either manage them yourself or I can assist you in setting them up.",
   },
   {
     id: 4,
-    question: "How much do you charge for an average website or app?",
+    question: "How much does the project cost?",
     answer:
-      "Once again, this depends. But my prices are affordable so you're good.",
+      "Pricing varies depending on the project's complexity. I ensure that the pricing is affordable and fair based on your requirements.",
   },
   {
     id: 3,
-    question: "What's your payment plan?",
+    question: "What’s your payment plan?",
     answer:
-      "Payment is divided into 3. An initial 30% upfront payment to get me started once all the details of the projec is set, 40% once the project is completed, and 30% once the project is delivered.",
+      "Payment is divided into 3 parts: 30% upfront to start the project, 40% upon project completion, and the remaining 30% upon delivery.",
   },
   {
     id: 6,
-    question: "What if the project doesn't turn out good?",
+    question: "What if the project doesn't meet my expectations?",
     answer:
-      "You will be a part of the process from the start. You will know how the whole project is going until the end. And I will make sure to give you the best.",
+      "You’ll be involved in every stage of the project, so you'll have full visibility. I'll make sure the project aligns with your goals and meets your expectations.",
   },
 ];
 
