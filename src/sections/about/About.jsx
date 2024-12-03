@@ -6,6 +6,21 @@ import data from "./data";
 import Card from "../../components/Card";
 
 const About = () => {
+  const handleDownload = () => {
+    fetch(CV)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.style.display = "none";
+        a.href = url;
+        a.download = "Anish_Machamasi_CV.pdf";
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch((err) => console.error("Failed to download file:", err));
+  };
   return (
     <section id="about" data-aos="fade-up">
       <div className="container about__container">
@@ -42,13 +57,9 @@ const About = () => {
             tackle the next challenge and contribute to meaningful projects.
           </p>
 
-          <a
-            href={CV}
-            download="Anish_Machamasi_CV.pdf"
-            className="btn primary"
-          >
+          <button onClick={handleDownload} className="btn primary">
             Download CV <FaDownload />
-          </a>
+          </button>
         </div>
       </div>
     </section>
