@@ -4,6 +4,7 @@ const data = [
   { id: 3, link: "#services", title: "Services" },
   { id: 4, link: "#portfolio", title: "Portfolio" },
   { id: 5, link: "#contact", title: "Contact" },
+  { id: 6, link: "https://medium.com/@anishmachamasi2262", title: "My Blogs" },
 ];
 
 export default data;
