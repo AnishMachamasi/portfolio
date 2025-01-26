@@ -10,10 +10,21 @@ import Image9 from "../../assets/caraccident.png";
 import Image10 from "../../assets/end-to-end-big-data-apps-architecture.webp";
 import Image11 from "../../assets/twitterdatapipeline.png";
 import Image12 from "../../assets/webscrappingaws.png";
+import Image13 from "../../assets/gandalfinsights.svg";
 
 const data = [
   {
     id: 1,
+    category: "Generative AI",
+    image: Image13,
+    title: "Gandalf Insights",
+    desc: "Gandalf Insights, powered by AWS, enables natural language queries for fast, intuitive data insights. By integrating Amazon Bedrock, OpenSearch, and Metabase, it streamlines analytics, reduces IT reliance, and accelerates decision-making, transforming data into a strategic asset for business growth.",
+    demo: "https://aws.amazon.com/blogs/apn/simplifying-data-analytics-gandalf-insights-and-the-power-of-natural-language-queries/",
+    github:
+      "https://aws.amazon.com/blogs/apn/simplifying-data-analytics-gandalf-insights-and-the-power-of-natural-language-queries/",
+  },
+  {
+    id: 2,
     category: "Generative AI",
     image: Image1,
     title: "AI Doc Companion",
@@ -22,7 +33,7 @@ const data = [
     github: "https://github.com/AnishMachamasi/AI-Doc-Companion",
   },
   {
-    id: 2,
+    id: 3,
     category: "Generative AI",
     image: Image2,
     title: "Generative AI ChatBot",
@@ -32,7 +43,7 @@ const data = [
       "https://github.com/AnishMachamasi/Building-a-Generative-AI-chatbot-using-Amazon-Bedrock",
   },
   {
-    id: 3,
+    id: 4,
     category: "Generative AI",
     image: Image3,
     title: "Text to SQL using AWS",
@@ -41,7 +52,7 @@ const data = [
     github: "https://github.com/AnishMachamasi/Text-to-SQL-using-AWS",
   },
   {
-    id: 4,
+    id: 5,
     category: "Machine Learning",
     image: Image4,
     title: "Text to Image Generation using AttnGAN",
@@ -51,7 +62,7 @@ const data = [
       "https://github.com/AnishMachamasi/Text-to-Image-Generation-using-AttnGANr",
   },
   {
-    id: 5,
+    id: 6,
     category: "Machine Learning",
     image: Image5,
     title: "Document Text Extractor",
@@ -61,7 +72,7 @@ const data = [
       "https://github.com/AnishMachamasi/Extract-text-from-Business-card-or-any-other-documents",
   },
   {
-    id: 6,
+    id: 7,
     category: "Machine Learning",
     image: Image6,
     title: "Vehicle Number Plate Detection",
@@ -71,7 +82,7 @@ const data = [
       "https://github.com/AnishMachamasi/Number-Plate-Detection-using-Deep-Learning-and-Yolo",
   },
   {
-    id: 7,
+    id: 8,
     category: "Machine Learning",
     image: Image7,
     title: "Hotel Booking Prediction",
@@ -80,7 +91,7 @@ const data = [
     github: "https://github.com/AnishMachamasi/Hotel-Booking-Prediction-ML",
   },
   {
-    id: 8,
+    id: 9,
     category: "Machine Learning",
     image: Image8,
     title: "Plant Disease Detection",
@@ -90,7 +101,7 @@ const data = [
       "https://github.com/AnishMachamasi/Plant-Disease-Detection-System?tab=readme-ov-file",
   },
   {
-    id: 9,
+    id: 10,
     category: "Machine Learning",
     image: Image9,
     title: "Accident Severity Level Prediction",
@@ -100,7 +111,7 @@ const data = [
       "https://github.com/AnishMachamasi/US-Accident-Severity-Level-Prediction",
   },
   {
-    id: 10,
+    id: 11,
     category: "Data Engineering",
     image: Image10,
     title: "End-to-End Big Data Applications",
@@ -109,7 +120,7 @@ const data = [
     github: "https://github.com/AnishMachamasi/Big-Data",
   },
   {
-    id: 11,
+    id: 12,
     category: "Data Engineering",
     image: Image11,
     title: "Twitter Data Pipeline",
