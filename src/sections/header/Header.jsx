@@ -17,7 +17,7 @@ const Header = () => {
         </div>
         <h3 data-aos="fade-up">Anish Machamasi</h3>
         <p data-aos="fade-up">
-          Data Engineer with 1.5+ years of experience in optimizing data
+          Data Engineer with 2+ years of experience in optimizing data
           pipelines. AWS Solutions Architect Associate certified, proficient in
           Python, SQL, PySpark, and FastAPI, focused on data quality,
           performance, and cost-efficiency.
